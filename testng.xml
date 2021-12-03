@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- parallel="tests" -->
+<suite name="Suite" >
+   <!--  <groups>
+  			 <run>		
+    			<include name="Smoke" />		
+   			</run>
+  	</groups> -->
+<listeners>
+		<listener class-name="com.pages.Listeners" />	
+</listeners>
+  <test name="Contacts">
+    <classes>
+      <class name="com.pages.Contacts"/>
+      </classes>
+  </test>   
+ <!--  <test name="Dental">
+    <classes>
+      <class name="com.pages.DentalPage"/>
+     </classes>
+  </test>    --> 
+  <test name="Careers">
+    <classes>
+      <class name="com.pages.Careers"/>
+     </classes>
+  </test>  
+ <!-- <test name="Home">
+    <classes>
+      <class name="com.pages.Homepage"/>
+    </classes>
+  </test> --> 
+</suite> <!-- Suite -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pages.Contacts" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-30T18:47:54" hostname="P190493L" time="10.722">
+  <properties/>
+  <testcase name="Contacts_04" classname="com.pages.Contacts" time="10.722"/>
+  <system-out><![CDATA[Customer Service check 
+Reading value from the link-- view our forms
+Contacts  Done 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
